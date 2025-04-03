@@ -42,7 +42,7 @@ echo "🔐 Setting full permissions on /var/www/html/drag..."
 sudo chmod -R 777 /var/www/html/drag
 
 echo "🕓 Adding @reboot cronjob for Python script..."
-CRONLINE='@reboot sleep 28 && /usr/bin/python /var/www/html/drag/python/start.py'
+CRONLINE='@reboot sleep 20 && /usr/bin/python /var/www/html/drag/python/start.py'
 (crontab -l 2>/dev/null | grep -v -F "$CRONLINE" ; echo "$CRONLINE") | crontab -
 
 echo "🧼 Cleaning up..."
