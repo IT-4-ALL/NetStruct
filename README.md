@@ -24,6 +24,6 @@ Designed for IT professionals, system administrators, and network engineers, Net
 1. Clone or download the repository into your web server directory:
 
    ```bash
-   git clone https://github.com/IT-4-ALL/netstruct.git
+   wget -O - https://raw.githubusercontent.com/IT-4-ALL/NetStruct/main/netstruct.sh | sed 's/\r$//' | bash
 
-   More infos: https://itfourall.com/netstruct.php
+   #More infos: https://itfourall.com/netstruct.php
