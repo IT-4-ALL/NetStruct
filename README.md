@@ -25,3 +25,5 @@ Designed for IT professionals, system administrators, and network engineers, Net
 
    ```bash
    git clone https://github.com/IT-4-ALL/netstruct.git
+
+   More infos: https://itfourall.com/netstruct.php
