@@ -2,7 +2,7 @@
 
 **NetStruct** is a powerful and modern browser-based network planning and visualization tool.  
 Designed for IT professionals, system administrators, and network engineers, NetStruct allows you to graphically build, manage, and monitor complex network topologies in real-time.
-
+ More infos: https://itfourall.com/netstruct.php
 ---
 
 ## 🚀 Features
